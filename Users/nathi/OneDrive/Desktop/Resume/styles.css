@@ -1,0 +1,73 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: lightskyblue;
+  color: #333;
+}
+header {
+  gap: space-between;
+  letter-spacing: 2px;
+  background: lightskyblue;
+  padding: 3rem 1rem;
+  font-size: 3rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 6vw; /* Responsive font size */
+  line-height: 1.2;
+}
+
+header p,
+header a {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Optional: Adjust font sizes for larger screens */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header p,
+  header a {
+    font-size: 1.1rem;
+  }
+}
+
+.linkedinbtn{
+    color: rgb(255, 255, 255);
+    font-weight: 1800px;
+    font-size: 1rem;
+    padding: 10px ;
+    border-radius: 50px;
+    background-color:rgb(42, 178, 205);
+}
+
+.container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+footer {
+  background: lightskyblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
