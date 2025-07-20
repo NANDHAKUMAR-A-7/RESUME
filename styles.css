@@ -15,6 +15,7 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+
 header h1 {
   margin: 0;
   font-size: 6vw; /* Responsive font size */
@@ -39,14 +40,24 @@ header a {
   }
 }
 
+.fa-linkedin{
+  font-size: 30px;
+  color: #0594fb;
+}
+
+.fa-envelope{
+ font-size: 25px;
+ color: rgb(229, 214, 100);
+}
+
 .linkedinbtn{
-    color: rgb(255, 255, 255);
+    color: #0594fb;
     font-weight: 1800px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 10px ;
     border-radius: 50px;
-    background-color:rgb(42, 178, 205);
 }
+
 
 .container {
   max-width: 900px;
