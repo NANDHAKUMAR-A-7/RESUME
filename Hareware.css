@@ -1,0 +1,79 @@
+:root {
+  --nvidia-green: #76b900;
+  --dark-bg: #0a0a0a;
+  --light-text: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--dark-bg);
+  color: var(--light-text);
+  scroll-behavior: smooth;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--nvidia-green);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--light-text);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--nvidia-green);
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  color: var(--nvidia-green);
+  margin-bottom: 1rem;
+}
+
+.project {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-left: 3px solid var(--nvidia-green);
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,0,0,0.8);
+  font-size: 0.9rem;
+}
