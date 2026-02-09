@@ -1,0 +1,132 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  gap: space-between;
+  letter-spacing: 2px;
+  background: #0a66c2;
+  color: #ffffff;
+  padding: 3rem 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 6vw; /* Responsive font size */
+  line-height: 1.2;
+}
+
+header p,
+header a {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Optional: Adjust font sizes for larger screens */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header p,
+  header a {
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+}
+
+.fa-linkedin {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.fa-envelope {
+  font-size: 25px;
+  color: rgb(229, 214, 100);
+}
+
+.fa-whatsapp {
+  font-size: 25px;
+  color: rgb(4, 255, 4);
+  font-weight: bolder;
+}
+
+#whatsapp {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-style:groove;
+  border-color: green;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-button i {
+  margin-right: 8px;
+}
+
+.whatsapp-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.linkedinbtn {
+  color: #ffffff;
+  font-weight: 1800px;
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  color: black;
+  font-weight: 500;
+}
+
+h2 {
+  color: #0a66c2;
+  font-weight: bolder;
+}
+
+ul {
+  padding-left: 1.5rem;
+  font-weight: 500;
+  color: black;
+  gap: space-between;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+footer {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: #0a66c2;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  font-size: 0.9rem;
+}
